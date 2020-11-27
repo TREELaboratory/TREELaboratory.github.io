@@ -1,0 +1,164 @@
+---
+title: "Hello World"
+author: Tim Rademacher
+date: "Last updated on 2020/11/07"
+output: 
+  html_document: 
+    toc: true
+    toc_float: true
+    theme: paper
+bibliography: TREELab.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set (echo = TRUE)
+```
+
+```{r, echo = FALSE}
+htmltools::img (src = knitr::image_uri ("../branding/logo/logo.003.png"), 
+                alt = 'logo', 
+                width = 200,
+                style = 'position:absolute; top:0; right:10%; padding:20px;')
+```
+
+## What is the <font color="#91b9a4"><b>TREE</b></font> lab?
+
+The <font color="#91b9a4"><b>TREE</b></font> lab may be short for the Tim Rademacher Ecosystem Eco-physiology laboratory or whatever fun accronym you can think off. The <font color="#91b9a4"><b>TREE</b></font> lab's purpose is to create, apply and distribute knowledge by efficiently harnessing the various skills and experiences of a team of people from diverse backgrounds. Currently, the research and outreach of the <font color="#91b9a4"><b>TREE</b></font> lab focuses on the eco-physiology of trees, in particular tree growth. Tree growth is one of the most important, yet poorly understood processes in the world. Arguably, wood - a defining feature of trees - is the most abundant biological tissue on earth [@bar-on_biomass_2018] and a coveted renewable resource that is already exploited for a myriad of uses with the potential for many novel applications. While we are currently working towards a mechanistic understanding of wood growth, we have been and continue to be excitable about a bunch of other topics (i.e. agriculture, viking migration, conservation biology, visual computing), although most of them relate to plants on land. 
+
+## <font color="#91b9a4"><b>TREE</b></font> lab mission
+
+The <font color="#91b9a4"><b>TREE</b></font> labs mission is to advance knowledge, lab members and the dissemination of knowledge with regard to land plants. Lab members are expected to follow the scientific method with utmost integrity. Although science is not about individuals or more precisely their egos, science fundamentally depends on them (people, not egos!). In the <font color="#91b9a4"><b>TREE</b></font> lab, we aspire to practice the best science for the benefit of human kind without forgetting that all lab members are also people. We strive to build an inclusive lab environment, which starts with the foundation of respectful and courteous communication.
+
+## Welcome 
+
+Most likely you are reading this, because you decided to take an offer to work as part of the <font color="#91b9a4"><b>TREE</b></font> lab. We are looking forward to welcome you personally as part of the group. The purpose of this document is to communicate information about expectations and the code of conduct for members of the <font color="#91b9a4"><b>TREE</b></font> lab and to serve as a reference document for lab members. As you read through this document, bear in mind that it was written for individuals with varying backgrounds, educations, and expertises. Some information may apply more or less to you personally. The document is hopefully the start of a conversation. Please voice any questions, comments or suggestions to improve this document and our collaborative effort in the next <font color="#91b9a4"><b>TREE</b></font> lab meeting or via email at <a style="color:#91b9a4" href="mailto:trademacher@fas.harvard.edu">trademacher@fas.harvard.edu</a>. However, this document is NOT a legal document and does not take precedence over any institutional policies.
+
+The <font color="#91b9a4"><b>TREE</b></font> lab may have been founded and is currently led by Tim Rademacher, but its success depends on the entire <font color="#91b9a4"><b>TREE</b></font> lab team. Successful science requires collaborators. Diversity and inclusiveness are important assets for science and they are not achieved without work on campus and in the field. We all have different strength (and weaknesses) and we can and should learn from each other. We aim to create an environment in which each team member feels safe, secure and supported, so they can perform to the best of their ability. Therefore, harassment of any sort is not tolerated. Moreover, all <font color="#91b9a4"><b>TREE</b></font> lab members are expected to act like a team - helping each other when needed, providing constructive feedback, supporting each other through the good and the bad. Thus, we will strive to help each other in the field and lab, we will review our manuscripts and code, practice our talks, share posters, animations, videos, and clean the common spaces, etc. When you join the <font color="#91b9a4"><b>TREE</b></font> lab, you join the team!
+
+<b>Communication is mission critical for any team to work productively and efficiently, especially for innovative scientific research.</b> We can best help each other when we understand your goals. Given the manageable size of our group, please keep at least your advisor in the loop on all lab communication.    
+
+### Conduct of research and behaviour
+
+Members of the <font color="#91b9a4"><b>TREE</b></font> lab are expected to adhere to the highest level of scientific integrity. Honesty, constructive criticism and trustworthiness are expected of all members. Further, we all need to stay on top of relevant lab and field safety training, so that we know how to react if something goes wrong. <!-- TTR : I might cut or replace the following paragraph by a more generic message about leading by example.-->The National Science Foundation offers further information on topics such as responsible conduct of research at: <a style="color:#91b9a4" href="http://www.nsf.gov/bfa/dias/policy/rcr.jsp">http://www.nsf.gov/bfa/dias/policy/rcr.jsp</a>. <!--We expect all members to complete this training and email the completion information to your advisor and add it to your CV.--> If you are uncertain about something, ask before anything can go wrong. 
+
+Please remember that research protocols, data, code, etc. are intellectual property. While we are committed to share our intellectual property and make it easily acessible, you still need to obtain your advisor's approval prior. Circumstances may arise where we cannot simply or immediately share with others. When sharing, always acknowledge and credit the inputs of all people involved in the creation, no matter whether they were lab members or outside collaborators.
+
+All members are expected to behave in a respectful, professional manner whether you are in the field, lab, at a conference or giving an interview. Each member is a representative of the <font color="#91b9a4"><b>TREE</b></font> lab and our behaviour determines how the lab is perceived by other scientists and the world. <!--Here is a link to the <font color="#91b9a4"><b>TREE</b></font> lab code of conduct, please read, sign and return it to your advisor. <!-- TTR: I need to read it and ammend it as appropriate and insert the link here.-->
+
+### Expectations of work habits - quantity and quality of time
+
+In addition to providing training, access to facilities and opportunities the <font color="#91b9a4"><b>TREE</b></font> lab is responsible for maintaining a leading research program. Our progress is constantly monitored and our funding will depend on productivity. Thus, every members efforts are of paramount importance to our success. You are expected to spend your time performing lab related research and evaluating and dicussing data in a professional manner. If you are not busy, we will find you a new productive task, but do not repeatedly distract others. We believe in a positive cohesive work environment. 
+
+The <font color="#91b9a4"><b>TREE</b></font> lab's core work hours are 09.00h to 16.00h. Each member should try to overlap their shedule as much as possible with the core hours, because it increases opportunities for us to communicate and help each other. Prolonged absence during cores hours, need to be justified and communicated (with the exception of field work and laboratory experiments).
+
+If you prefer working remotely, that is a generally a possibility. In fact, it is most likely a preferred option or even mandated at the moment due to the Covid19 pandemic. The health of lab members is paramount and we want to protect all lab members as can reasonably be expected. Therefore, please stay updated with regard to current public health advice.<!--, once you demonstrated that work is getting done. The desire to work remotely needs to be clearly communicated, so that timelines and goals can be agreed upon and monitored. Talk to your advisor if you want to work remotely.-->
+
+Apart from face-to-face communication, email and the lab's slack channel are our primary ways of communication. You may receive work emails outside off core hours. We do not expect any member to answer emails immediately outside off core hours but we do expect responses within one day (weekends and holidays do not count), unless there are extenuating circumstances. If a member does not respond to an email, try calling them. Phone numbers and other contact information needs to be kept up-to-date in the <font color="#91b9a4"><b>TREE</b></font> lab contact info spreadsheet. <!-- I need to find a secure and simple way to share this.-->Feel free to send any email again, if you have not received a response in one to two days. Please feel free to look for help in person. Office doors are generally open, unless a member is on a conference call or in another meeting.
+
+If there is an emergency, always call!
+
+Members can sporadically be available over the weekend, but this is not expected of anybody. If a <font color="#91b9a4"><b>TREE</b></font> lab member thinks that they will need help over the weekend (e.g. a grant proposal is due on Monday morning), please coomunicate this ahead of time. However, just because your advisor works on the weekend, does not mean that you have to or even should. 
+
+Overall, we want to use our limited time well, work efficiently, and put in productive hours - strong efforts will be noticed by other lab members and yourself. Efficiency and productivity go hand in hand and re-inforce each other. However, productivity is not a constant. For example, teaching or outreach commitments can temporarily stiffle your research efforts or the lack of long enough uninterupted periods may hamper creative and deep thinking. While productivity varies, we aim to always make some progress. If you feel that you are not progressing, we should re-evaluate goals, priorities and strategies. Please talk to your advisor if you have the feeling of stagnation - we have all been there, it will happen more than once, and you can and will move past it.
+
+### Meetings
+
+Part of the <font color="#91b9a4"><b>TREE</b></font> lab mission is to advance its members. For this purpose regular progress meetings and reports are instrumental to create accountability. Progress meetings with your advisor are at least bi-annual and are an opportunity to discuss your professional development and your future (inside and outside of academia). We will also have weekly lab meetings which will be complemented by additional meetings as required. Meetings should be planned, structured and productive, but can be improvised ad hoc when circumstance does not permit otherwise.
+
+#### Weekily lab meetings
+ The <font color="#91b9a4"><b>TREE</b></font> lab meets once a week at a time that is regularly re-evaluated to maximise attendance. These meetings are a place to discuss lab news, lab safety, protocols, ideas, and our own and others research. An agenda will be set and shared before the meeting, so that we can use the meeting productively. All members are expected to participate in meetings. Participation involves arriving ahead of time (not on time and most certainly not late), being prepared (e.g. share some slides on results or present a paper) and engaging thoughtfully throughout the meeting (i.e. active listening). Email and phone use is discouraged and ought to be minimised to relevant activities (e.g. looking for pertinent information) during meetings.
+ 
+#### One-on-one meetings
+
+Weekly meetings with your advisor should be scheduled during your time in the lab. These meetings provide a chance to discuss course work, field and laboratory research plans, data analysis, and manuscripts. Goals and timeline ought to be defined and evaluated during these meetings. One-on-one meetings are an opportunity to have your advisor's undivived attention and discuss your science. Use the time wisely - come prepared and if you want your advisor to look at data, a paper, a talk, etc. before, please sent the material well ahead of the meeting (one week in advance is ideal). Additional meetings can be scheduled as needed and you should feel free to stop by your advisors office if you have questions, data to share, or need to troubleshoot something.
+
+<i>Being on time:</i> Time is our hottest commodity. Please be respectuful of others time and schedules. Every member is expected to be on time for our meetings and deadlines unless extentuating circumstances prevent it. If the meeting starts at noon, walking into the door at noon is not being on time. You ought to arrive a few minutes before to be able to settle in for the meeting.
+
+### Leave and self-care
+
+We strive to provide a healthy and safe work environment for the entire lab and all its collaborators. Only you know what you need to maintain physical and mental health. Building breaks into your weekly routine and taking time to yourself is encouraged. If you are ever feeling in distress please reach out to your advisor or one of your lab mates as well as your health care provider. Academic research can be difficult, especially a PhD, is know to challenge mental health. Specific factors of academia that are responsible for mental health issues are:
+
+- Low pay and quality of life issues, in particular when having to live in fairly expensive cities.
+- Feelings of isolation. We are often working on our own specific topic of research.
+- Uncertainty of our work. We try our best to minise risk, but some high-reward research avenue are inherently bound to higher uncertainties. 
+- Surprises in our work. Sometimes experiments do not work out or we have unexpected (sometime referred to as "negative") results. Research is rarely straight forward and more often than not more challenging than originally expected.
+- Burnout. Working long hours to make up for "lost" time (see previous point) and the resulting exaustion.
+
+Most PhD-students encounter these challenges at some point in one way or another. Take care off yourself to maintain good mental health. Although it may not feel like it at times, every academic (even those in the making) has the time and resources needed to be highly successful.
+
+If you are sick or other conditions arise that will impact your ability to conduct research and/or paricipate fully in our lab, please communicate this directly to your advisor. We will try to get you the support you need. Such communication will also allow us to develop a plan for dealing with any issues and keeping you on track to the successful completion of your goals.
+
+It is expected that all leave requests must be approved. Before you make travel plans, please discuss them with you advisor. Our core mission is to produce high quality science, hence we must ensure that plans properly covering for your absence are in place.  
+
+When the university is closed, then the lab is likely closed. There are some exceptions to this, e.g. a graduate students wants to run an experiment on new years eve. For vacation days our lab follows the general institutional guidelines and observes national holidays. Furthermore, we may decide as a lab to organise activities for lesser known holidays, such as Pi Day, the equinoxes, midsummer and midwinter.
+
+### Professionalism and email ettiquette
+
+We strongly believe in professional behaviour in the workplace. All individuals deserve respect. We support an inclusive environment where individuals feel able to perform their work activities to the best of their abilities. Members that do not comply with our guidelines will discuss these guidelines with their advisor as a warning and are expected to comply with them thereafter. There are no exceptions. Nobodys gets a pass because their skills are in high demand, they are very productive, or they contribute much to the group in other ways.
+
+Some examples of harassment are offensive comments related to gender, sexual orientation, disability, physical appearance, body size, race, religion, sexual images in public spaces, deliberate intimidation, stalking, following, harassing photography or recording, sustained disruption of discussions, inappropriate physical contact, and unwelcome sexual attention. If you ever feel that you have been treated disrespectfully or are being harassed, please raise this immediately with your advisor or university help services. All communication will be treated confidentially and you will be referred to the appropriate resources.
+
+We expect a response to emails in a timely manner (approximately one day). Even if you do not have an answer to questions posed in an email, you can still send an acknowledgement that you received the email and give an estimated timeframe by when you will have the answer. Please use email professionally. Be aware that sometimes individuals may be black carbon copied or that we sometimes accidentally hit "reply to all". Please copy your advisor on <font color="#91b9a4"><b>TREE</b></font> lab related emails. 
+
+Turn on an automatic out-of-office notification, if you are sick, on vacation, in the field or other circumstances prevent you from replying to email in a timely manner. If appropriate when you use an out-of-office notification, please designate who is covering for you and include their contact information.
+
+### Funds and property
+
+Most items will be purchased with wth lab funds. Your advisor needs to approve grant expenditures. When you want or need to purchase something, please supply all the relevant information, such as price, vendor, part number, quantity, why you need it. Our lab purchasing officer will place the order. If you purchase something with your own funds, keep your receipt as it is required for reimbursement and remember to get your advisor's approval first.
+
+### Funding and proposal writing
+
+Securing funding is a key part of life for scientists in academia, governments and non-governmental organisations. Therefore, we encourage all members to apply for funding opportunities, even if you are brought in on a fully funded project. We should also share interesting funding opportunities in our weekly meetings for the benefit of other lab members.
+
+<i>Deadlines:</i> Deadlines are a necessary fact of work life. When you miss a deadline for a proposal or a job application, you don't get a second chance. We will practice making deadlines throughout your time with us. We will set specific deadlines for individual goals and it's your responsibility to meet these deadlines. If you cannot do so, we can adjust as we go. But simply missing deadlines with no communication is not acceptable.
+
+### Authorship and collaborations
+
+Author order should be by contribution. Determining contribution is a tricky processes and more often than not requires careful consideration and discussion. Each paper should include an author contribution statement. Manuscripts must be approved by all co-authors before submission. We publish open access, ideally Gold or Diamond but at least Green unless this is not possible. Co-authors should get at least two weeks to comment on a paper before submission. Upon acceptance (or rejection) of your paper, you must inform all co-authors of the outcome as soon as possible and ensure all co-authors get chance to look at and comment on proofs (N.B. many errors can be introduced into manuscripts by the journal at this stage). Note that after paper acceptance, final text and graphics files must be sent, in raw format (e.g. .docx, .ai.) to all co-authors for their records/use within 14 days, with an accepted version (the so-called ‘Author Accepted Manuscript’ or ‘AAM’) uploaded to an appropriate online archive (e.g. bioRxiv, EarthArXiv, ESSOAr). We also encourage lab members to upload manuscripts to a relevant pre-print server (e.g. bioRxiv) prior to journal submission, review, and publication.
+ 
+ Authorship is a priviledge and when you make a significant intellectual or experimental contribution to a project, then you will be an author on resulting manuscripts. However, there have often been considerable resources devoted to a project before you were involved and thus others may also deserve authorship. Authorship (including order of authors) is always discussed before a manuscript is submitted from the lab. As a general rule of thumb, to be considered for authorship you need to contribute substantially to at least three of the following:
+
+1. Intellectual development of the idea and/or experimental design.
+2. Funding for the work through proposal development and writing.
+3. Significant time in the field collecting samples and in the laboratory analysing samples.
+4. Significant time analysing data and preparing it for publication. 
+5. Manuscript development including outlining and text writing as well as contributing to figures/tables.
+
+Before you enter into collaboration with other research groups, speak with your advisor. Although it is not required that you speak with your advisor before you make a request of others, we prefer that you send your advisor a draft of the request before you send it to the outside researcher. Requests by others for materials/information from our group must be discussed with your advisor before materials or information are distributed. If there is a misunderstanding or a conflict with a collaborator, talk to your adivsor. Remember that the lab may have multiple interactions with this lab or individual that could be impacted. Your advisor may also know something about the potential collaborator that would be helpful as you engage with them.
+
+### Workshops and conferences
+
+I think attending workshops and conferences is important for a variety of reasons, such as learning new techniques and recent developments in the field, sharing your research, networking, and increasing communication skills. If you have funds to support your travel, we will use them. Please keep in mind that there may be multiple travel needs within the <font color="#91b9a4"><b>TREE</b></font> lab and thus we need to fairly distribute resources. Generally, if you are presenting a poster or talk we will do our best to support one conference/workshop per year. If we cannot support the entire cost then you are responsible for finding the remaining funds (e.g., the lab pays registration and you pay transport). We are happy to help you search for other funding sources (e.g., within the department, university, professional societies).
+
+### Code, lab notebooks, data, and non-email communication
+
+Proper and thorough documentation, record keeping and back-ups are vital to effective and efficient research. Research projects are often inherited or shared with collaborators and are hard to pick up without proper documentation or easily accessible back-ups. Everybody has a different system of organisation, we respect that you may have a different system from other people in the  <font color="#91b9a4"><b>TREE</b></font> lab as long as items can be easily found and referenced.
+
+<i>Code:</i> Each script should start with a header outlining developer, maintainer, its purpose and potential requirements. Please adhere to 90 characters per line (continuation signs exist for a reason). We do not need to capitalise unnecessarily anymore, so please avoid writing in all caps, unless you want to REALLY highlight something. For naming variable, camel-casing is generally preferred, because it is proven to be more readible [@binkley_camelcase_2009]. Comments are essential to understand code. Comment often and comprehensively. When commenting on somebody else's code, make sure your comments are always preceeded by your initials. Putting your initials helps to disentangle authors and types of comments. We do expect every member to use version control tools such as git. Platforms such as Github have the added advantage of facilitating collaborative coding by being able to share changes to the code and documenting the changes to a project over time. When you develop code, we aspire to build and maintain shareable products (such as websites, R packages or R shiny apps). By building and sharing code as products, you contribute to the community and often get a lot of smart people check the your code for free. By making our data, work and outputs easily accessible, we assure that our contribution is not lost and can be picked up by other people in the future, even when we leaving science.
+
+
+<i>Lab notebooks:</i> All lab notebooks stay in the lab. If you want to enter data at home - please make a copy of the relevant pages and bring those copies home instead of the notebook. When you graduate the notebook stays with the <font color="#91b9a4"><b>TREE</b></font> lab but you should make a copy for yourself. Those notes will come in handy.
+
+<i>Data documentation and back-up:</i> Please make sure to back-up your code, data and documentation at least once each week. Ideally, you automate the backing-up of data. There are many ways of creating back-ups, talk to your advisor how to best cover your back-up needs. However you back-up your data, make sure your advisor is aware. Loosing data due to a corrup operating system or other extentuating circumstances has happened to many of us and there is little more frustrating then loosing the hard work of days, weeks, months, or even years in some cases. Make sure this does not happen to your research. 
+
+<!-- What type of online documentation do we use?-->
+
+<!--Upon completion of a project and where data confidentiality allows, all data should be placed on an appropriate repository with a DOI. We strive to make research reproducible, as such curated data should be publicly available including code. Ideally, we strive to provide tested tools to manipulate the data, such as applications. We want our data to be of high quality and easy to user for other scientists. In the case of publication, these data should be published alongside the manuscript on a repository such as figshare. 
+
+Anything leaving the lab needs your advisors approval (e.g., abstracts, workshop applications, proposals). Never submit any of these items without letting your advisor read/edit them first. If you are submitting an abstract to a meeting, please send it to your advisor <u>at least one week in advance</u>, so there is time to go back and forth on edits. If you are submitting a proposal it should be sent to your advisor <u>at least three weeks</u> in advance so we can edit it.-->
+
+### Outreach and online presence
+
+Outreach is a key component of our mission. Each year we participate in several outreach activities that can range from full lab participation to individual participation. As a member of the <font color="#91b9a4"><b>TREE</b></font> lab your participation is required in such activities. If you have additional ideas please let your advisor know. We are always happy to discuss new ways to broaden our impact. Importantly though, we need to remember that our research comes first and outreach activities should not continuously outpace our research efforts.
+
+We have a lab website, facebook, instagram, twitter, and youtube account. If you are interested in helping curate these, please let your advisor know. Help is always welcome. If you do help, remember keep posts professional and relevant to our research (e.g., no politics).
+
+### Sustainability of operations
+
+We are responsible for the resources used in our lab. Good research and science is not only efficiently conducted with regard to time but also resources. Our research directly quantifies human impacts on the planet, it would be hypocritical to waste resources in the process given the current state of the planet. Thus, we consider it imperative to reduce resource use and recycle as much as possible. Reducing materials and energy used in research has the added benefit of potentially reducing the cost associated with our research. At times, being more resource efficient may have an additional price tag, which we will try to pay. Given that we study the environment, lab activities and operations should always try to minimise environmental impacts.
+
+### Acknowledgements
+
+This letter was mainly inspired by and borrows overwhelmingly from a letter by Prof. Wally Fulweiler at Boston University to new lab members of her lab. Thank you, Wally! Furthermore, we have to acknowledge discussions and experiences with many scientists, that have influenced our thinking about a research laboratory should be run. In particular, we want to thank - in no particular order - Clarisse Hart (Harvard Forest), Harriet Allen (Unversity of Cambridge), Neil Pederson (Harvard Forest), Paul van Pelt, Quentin Gouil (Walter and Eliza Hall Institute of Medical Research), and Robert Beyer (University of Cambridge). 
+
+# References
